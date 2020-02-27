@@ -1,5 +1,10 @@
-# SmoothCursorify
-Applies a Microsoft Word-like smooth caret animation to multiple online editors.
+<center>
+  <h1>
+    <img src="./logotype.png" alt="SmoothCursorify" height="150px">
+  </h1>
+<p>Apply a Microsoft Word-like smooth caret animation to multiple online editors.</p>
+</center>
+
 
 ## Supported websites
 > Please open an issue to request a new website
