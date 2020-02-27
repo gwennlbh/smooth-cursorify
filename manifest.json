@@ -19,13 +19,5 @@
   "16": "icon16.png",
   "48": "icon48.png",
   "128": "icon128.png" 
-  },
-  "browser_action": {
-    "default_title": "Smooth Cursorify",
-    "default_icon": "icon.png"
-  },
-  "permissions": [
-    "http://docs.google.com/*", 
-    "https://docs.google.com/*"
-  ]
+  }
 }
