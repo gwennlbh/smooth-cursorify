@@ -1,2 +1,7 @@
-## Rainbow Cursor
-This simple chrome extension changes the styling for the Google Docs Cursor and adds a rainbow gradient.
+# SmoothCursorify
+Applies a Microsoft Word-like smooth caret animation to multiple online editors.
+
+## Supported websites
+> Please open an issue to request a new website
+
+* Google Docs (https://docs.google.com/)
