@@ -1,13 +1,17 @@
 {
   "name": "Smooth Cursorify — Smooth cursors for everyone",
   "short_name": "Smooth Cursorify",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "manifest_version": 2,
   "description": "Apply a Microsoft Word-like smooth caret animation to multiple online editors",
   "content_scripts": [
    {
      "matches": ["https://docs.google.com/document/*", "http://docs.google.com/document/*"],
      "js": ["google-docs.js"]
+   },
+   {
+     "matches": ["https://www.overleaf.com/project/*", "http://www.overleaf.com/project/*"],
+     "js": ["overleaf.js"]
    }
   ],
  "icons": 
