@@ -1,13 +1,13 @@
 {
-  "name": "Rainbow Cursor for Google Docs",
-  "short_name": "Rainbow Crsr",
-  "version": "2.0.0",
+  "name": "Smooth Cursorify — Smooth cursors for everyone",
+  "short_name": "Smooth Cursorify",
+  "version": "0.1.0",
   "manifest_version": 2,
-  "description": "Make your cursor rainbow in Google Docs.",
+  "description": "Apply a Microsoft Word-like smooth caret animation to multiple online editors",
   "content_scripts": [
    {
      "matches": ["https://docs.google.com/document/*", "http://docs.google.com/document/*"],
-     "js": ["rainbow.js"]
+     "js": ["google-docs.js"]
    }
   ],
  "icons": 
@@ -17,7 +17,7 @@
   "128": "icon128.png" 
   },
   "browser_action": {
-    "default_title": "Rainbow Cursor",
+    "default_title": "Smooth Cursorify",
     "default_icon": "icon.png"
   },
   "permissions": [
