@@ -3,6 +3,10 @@
     <p align="center">Apply a Microsoft Word-like smooth caret animation to multiple online editors.</p>
 </p>
 
+## Demo
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/35It5ijWl_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Installation
 
 I'm still waiting for Firefox to verify my extension, and haven't uploaded it to the Chrome Web Store yet, but you can add it manually:
