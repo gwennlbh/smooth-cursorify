@@ -5,7 +5,7 @@
 
 ## Demo
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/35It5ijWl_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Demo video](https://img.youtube.com/vi/35It5ijWl_0/0.jpg)](https://www.youtube.com/watch?v=35It5ijWl_0)
 
 ## Installation
 
