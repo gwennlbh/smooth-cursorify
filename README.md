@@ -25,3 +25,16 @@ If you want to install this extension manually:
 
 * Google Docs (https://docs.google.com/)
 * Overleaf (https://www.overleaf.com/)
+
+## How does it work?
+
+Some websites use custom rendering engines to edit rich text, instead of relying on `contenteditable` or using a plain `<textarea>`/`<input>`. When using such custom methods, the cursor is the native one, and is instead an html element, that can be stylized like any other. For example, Google Docs uses a 2-pixels-wide div with a black background to render its cursor.
+
+Since those cursors are plain HTML elements, they can be **stylized**, that's where this extension comes in.
+
+The process is simple:
+
+1. Find the element
+2. Append `transition: all 80ms` to its style tag
+
+The problem with this is that methods using the native cursor can't really have them applied: we _can't_ access the system cursor to style it with CSS.
