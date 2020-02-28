@@ -1,15 +1,11 @@
 <p align="center">
     <img src="./logotype.png" alt="SmoothCursorify" height="150px">
     <p align="center">Apply a Microsoft Word-like smooth caret animation to multiple online editors.</p>
+    <p align="center"><a href="https://addons.mozilla.org/fr/firefox/addon/smooth-cursorify/">Firefox</a>&nbsp;&bull;&nbsp;Chrome (Coming Soon)&nbsp;&bull;&nbsp;<a href="https://www.youtube.com/watch?v=35It5ijWl_0">Demo video</a></p>
 </p>
 
-## Demo
-
-[![Demo video](https://img.youtube.com/vi/35It5ijWl_0/0.jpg)](https://www.youtube.com/watch?v=35It5ijWl_0)
-
-## Installation
-
-I'm still waiting for Firefox to verify my extension, and haven't uploaded it to the Chrome Web Store yet, but you can add it manually:
+## Manual installation
+If you want to install this extension manually:
 
 1. Download this repository
 2. Load the extension
