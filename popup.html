@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Smooth Cursor Popup</title>
+</head>
+
+<style>
+    #content{
+        padding: 10px;
+        padding-top: 4px;
+        width: 240px;
+    }
+    #scrollArea{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    #speedIndicator{
+        font-size: medium;
+    }
+</style>
+<body>
+    <div id="content">
+        <h1>Speed Adjustment</h1>
+        <div id="scrollArea">
+            <input type="range" min="0" max="250" id="slider">
+            <p id="speedIndicator"></p>
+        </div>
+    </div>
+</body>
+<script src="popup.js"></script>
+</html>
