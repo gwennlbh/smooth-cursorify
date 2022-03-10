@@ -1,7 +1,7 @@
 <p align="center">
     <img src="./logotype.png" alt="SmoothCursorify" height="150px">
     <p align="center">Apply a Microsoft Word-like smooth caret animation to multiple online editors.</p>
-    <p align="center"><a href="https://addons.mozilla.org/fr/firefox/addon/smooth-cursorify/">Firefox</a>&nbsp;&bull;&nbsp;Chrome (Coming Soon)&nbsp;&bull;&nbsp;<a href="https://www.youtube.com/watch?v=35It5ijWl_0">Demo video</a></p>
+    <p align="center"><a href="https://addons.mozilla.org/fr/firefox/addon/smooth-cursorify/">Firefox</a>&nbsp;&bull;&nbsp;<a href="https://chrome.google.com/webstore/detail/smooth-cursorify/ohhjfajndpfpbimipmehmdkblnbelaec?hl=fr&authuser=0">Chrome</a>&nbsp;&bull;&nbsp;<a href="https://www.youtube.com/watch?v=35It5ijWl_0">Demo video</a></p>
 </p>
   
 ## Supported websites
