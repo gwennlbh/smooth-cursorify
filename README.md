@@ -12,7 +12,7 @@
 
 ## How does it work?
 
-Some websites use custom rendering engines to edit rich text, instead of relying on `contenteditable` or using a plain `<textarea>`/`<input>`. When using such custom methods, the cursor is the native one, and is instead an html element, that can be stylized like any other. For example, Google Docs uses a 2-pixels-wide div with a black background to render its cursor.
+Some websites use custom rendering engines to edit rich text, instead of relying on `contenteditable` or using a plain `<textarea>`/`<input>`. When using such custom methods, the cursor is not the native one, and is instead an HTML element, that can be stylized like any other. For example, Google Docs uses a 2-pixels-wide div with a black background to render its cursor.
 
 Since those cursors are plain HTML elements, they can be **stylized**, that's where this extension comes in.
 
