@@ -1,7 +1,7 @@
 <p align="center">
     <img src="./logotype.png" alt="SmoothCursorify" height="150px">
     <p align="center">Apply a Microsoft Word-like smooth caret animation to multiple online editors.</p>
-    <p align="center"><a href="https://addons.mozilla.org/fr/firefox/addon/smooth-cursorify/">Firefox</a>&nbsp;&bull;&nbsp;Chrome (Coming Soon)&nbsp;&bull;&nbsp;<a href="https://www.youtube.com/watch?v=35It5ijWl_0">Demo video</a></p>
+    <p align="center"><a href="https://addons.mozilla.org/fr/firefox/addon/smooth-cursorify/">Firefox</a>&nbsp;&bull;&nbsp;<a href="https://chrome.google.com/webstore/detail/smooth-cursorify/ohhjfajndpfpbimipmehmdkblnbelaec?hl=fr&authuser=0">Chrome</a>&nbsp;&bull;&nbsp;<a href="https://www.youtube.com/watch?v=35It5ijWl_0">Demo video</a></p>
 </p>
   
 ## Supported websites
@@ -12,7 +12,7 @@
 
 ## How does it work?
 
-Some websites use custom rendering engines to edit rich text, instead of relying on `contenteditable` or using a plain `<textarea>`/`<input>`. When using such custom methods, the cursor is the native one, and is instead an html element, that can be stylized like any other. For example, Google Docs uses a 2-pixels-wide div with a black background to render its cursor.
+Some websites use custom rendering engines to edit rich text, instead of relying on `contenteditable` or using a plain `<textarea>`/`<input>`. When using such custom methods, the cursor is not the native one, and is instead an HTML element, that can be stylized like any other. For example, Google Docs uses a 2-pixels-wide div with a black background to render its cursor.
 
 Since those cursors are plain HTML elements, they can be **stylized**, that's where this extension comes in.
 
