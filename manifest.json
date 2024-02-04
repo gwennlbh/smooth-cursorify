@@ -4,6 +4,12 @@
   "version": "0.1.0",
   "manifest_version": 2,
   "description": "Apply a Microsoft Word-like smooth caret animation to multiple online editors",
+  "browser_specific_settings": {
+	"gecko": {
+	  "id": "bettertyping@jaduastudios.com",
+	  "strict_min_version": "101.0"
+	}
+  },
   "content_scripts": [
    {
      "matches": ["https://docs.google.com/document/*", "http://docs.google.com/document/*"],
