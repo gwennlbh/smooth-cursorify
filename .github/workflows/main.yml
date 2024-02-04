@@ -1,0 +1,22 @@
+name: Create Archive
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'The version to be updated in all files'
+        required: true
+        default: '0.0.0'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Package
+      run: |
+        zip -9 -r -q ./release.xpi ./*
+    - name: Upload Release
+      uses: ncipollo/release-action@v1
+      with:
+        tag: 'v${{ github.event.inputs.version }}'
+        artifacts: "release.xpi"
+        token: ${{ secrets.GITHUB_TOKEN }}
