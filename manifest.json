@@ -1,13 +1,21 @@
 {
-  "name": "Smooth Cursorify",
-  "short_name": "Smooth Cursorify",
-  "version": "0.2.0",
+  "name": "Better Typing",
+  "short_name": "Better Typing",
+  "version": "0.1.0",
   "manifest_version": 2,
   "description": "Apply a Microsoft Word-like smooth caret animation to multiple online editors",
   "content_scripts": [
    {
      "matches": ["https://docs.google.com/document/*", "http://docs.google.com/document/*"],
      "js": ["google-docs.js"]
+   },
+   {
+     "matches": ["https://drive.jaduastudios.com/suite/*", "http://drive.jaduastudios.com/suite/*"],
+     "js": ["jadua-drive.js"]
+   },
+   {
+     "matches": ["https://docs.google.com/spreadsheets/*", "http://docs.google.com/spreadsheets/*"],
+     "js": ["google-sheets.js"]
    },
    {
      "matches": ["https://www.overleaf.com/project/*", "http://www.overleaf.com/project/*"],
