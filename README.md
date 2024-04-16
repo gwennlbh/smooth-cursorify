@@ -2,17 +2,19 @@
     <img src="./logotype.png" alt="SmoothCursorify" height="150px">
     <p align="center">Apply a Microsoft Word-like smooth caret animation to multiple online editors.</p>
     <p align="center"><a href="https://addons.mozilla.org/fr/firefox/addon/smooth-cursorify/">Firefox</a>&nbsp;&bull;&nbsp;<a href="https://chrome.google.com/webstore/detail/smooth-cursorify/ohhjfajndpfpbimipmehmdkblnbelaec?hl=fr&authuser=0">Chrome</a>&nbsp;&bull;&nbsp;<a href="https://www.youtube.com/watch?v=35It5ijWl_0">Demo video</a></p>
+    <p align="center"><a href="https://ewen-lbh.github.io/smooth-cursorify/">Bookmarklets</a></p>
 </p>
 
 ![Mozilla Add-on downloads](https://img.shields.io/amo/dw/smooth-cursorify?label=firefox%20downloads)
 ![Chrome Web Store users](https://img.shields.io/chrome-web-store/users/ohhjfajndpfpbimipmehmdkblnbelaec?label=chrome%20users)
 
+
   
 ## Supported websites
 > Please open an issue to request a new website
 
-* Google Docs (https://docs.google.com/) · <a href="javascript:(function()%7Bvar%20cursor%20%3D%20document.getElementsByClassName(%22kix-cursor%22)%5B0%5D%0Avar%20cursor_style%20%3D%20cursor.getAttribute(%22style%22)%3B%0Acursor.setAttribute('style'%2C%20cursor_style%2B%22%20transition%3A%20all%2080ms%3B%22)%3B%7D)()%3B">bookmarklet</a>
-* Overleaf (https://www.overleaf.com/) · <a href="javascript:(function()%7Bvar%20carets%20%3D%20document.querySelectorAll('.ace_cursor-layer%20.ace_cursor')%0Aconsole.info(%60%5Bsmooth-cursorify%5D%20Got%20cursor%20elements%3A%20%24%7BJSON.stringify(carets)%7D%60)%0Avar%20curCount%20%3D%200%0Acarets.forEach((caret)%20%3D%3E%20%7B%0A%20%20var%20caret_styles%20%3D%20caret.getAttribute(%22style%22)%0A%20%20caret.setAttribute(%22style%22%2C%20caret_styles%20%2B%20%22%20transition%3A%20all%2080ms%3B%22)%0A%20%20curCount%2B%2B%0A%7D)%0Aconsole.info(%60%5Bsmooth-cursorify%5D%20Applied%20styles%20to%20%24%7BcurCount%7D%20cursor(s)%60)%7D)()%3B">bookmarklet</a>
+* Google Docs (https://docs.google.com/) 
+* Overleaf (https://www.overleaf.com/) 
 
 ## How does it work?
 
