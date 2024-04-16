@@ -10,6 +10,10 @@
      "js": ["google-docs.js"]
    },
    {
+     "matches": ["https://docs.google.com/spreadsheets/*", "http://docs.google.com/spreadsheets/*"],
+     "js": ["google-sheets.js"]
+   },
+   {
      "matches": ["https://www.overleaf.com/project/*", "http://www.overleaf.com/project/*"],
      "js": ["overleaf.js"]
    }
