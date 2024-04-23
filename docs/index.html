@@ -1,0 +1,9 @@
+<h1>Bookmarklet links〜</h1>
+<ul>
+<li>Google Docs (https://docs.google.com/) ·
+<a href="javascript:(function()%7Bvar%20cursor%20%3D%20document.getElementsByClassName(%22kix-cursor%22)%5B0%5D%0Avar%20cursor_style%20%3D%20cursor.getAttribute(%22style%22)%3B%0Acursor.setAttribute('style'%2C%20cursor_style%2B%22%20transition%3A%20all%2080ms%3B%22)%3B%7D)()%3B">bookmarklet</a></li>
+<li>Overleaf (https://www.overleaf.com/) ·
+<a href="javascript:(function()%7Bvar%20carets%20%3D%20document.querySelectorAll('.ace_cursor-layer%20.ace_cursor')%0Aconsole.info(%60%5Bsmooth-cursorify%5D%20Got%20cursor%20elements%3A%20%24%7BJSON.stringify(carets)%7D%60)%0Avar%20curCount%20%3D%200%0Acarets.forEach((caret)%20%3D%3E%20%7B%0A%20%20var%20caret_styles%20%3D%20caret.getAttribute(%22style%22)%0A%20%20caret.setAttribute(%22style%22%2C%20caret_styles%20%2B%20%22%20transition%3A%20all%2080ms%3B%22)%0A%20%20curCount%2B%2B%0A%7D)%0Aconsole.info(%60%5Bsmooth-cursorify%5D%20Applied%20styles%20to%20%24%7BcurCount%7D%20cursor(s)%60)%7D)()%3B">bookmarklet</a></li>
+</ul>
+<h2>What is this???</h2>
+<a href="https://github.com/ewen-lbh/smooth-cursorify">See the project on github</a>
