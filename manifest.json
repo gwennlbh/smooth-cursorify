@@ -2,26 +2,41 @@
   "name": "Smooth Cursorify",
   "short_name": "Smooth Cursorify",
   "version": "0.2.0",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "description": "Apply a Microsoft Word-like smooth caret animation to multiple online editors",
   "content_scripts": [
-   {
-     "matches": ["https://docs.google.com/document/*", "http://docs.google.com/document/*"],
-     "js": ["google-docs.js"]
-   },
-   {
-     "matches": ["https://docs.google.com/spreadsheets/*", "http://docs.google.com/spreadsheets/*"],
-     "js": ["google-sheets.js"]
-   },
-   {
-     "matches": ["https://www.overleaf.com/project/*", "http://www.overleaf.com/project/*"],
-     "js": ["overleaf.js"]
-   }
+    {
+      "matches": [
+        "https://docs.google.com/document/*",
+        "http://docs.google.com/document/*"
+      ],
+      "js": [
+        "google-docs.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://docs.google.com/spreadsheets/*",
+        "http://docs.google.com/spreadsheets/*"
+      ],
+      "js": [
+        "google-sheets.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://www.overleaf.com/project/*",
+        "http://www.overleaf.com/project/*"
+      ],
+      "js": [
+        "overleaf.js"
+      ]
+    }
   ],
- "icons": 
- { 
-  "16": "icon16.png",
-  "48": "icon48.png",
-  "128": "icon128.png" 
-  }
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_security_policy": {}
 }
