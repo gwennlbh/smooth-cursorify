@@ -33,6 +33,18 @@ The process is simple:
 
 The problem with this is that methods using the native cursor can't really have them applied: we _can't_ access the system cursor to style it with CSS.
 
+## Contribute a new website
+
+Thanks a lot :)
+
+1. Find the HTML element that shows the cursor: 
+  1. open the dev tools / inspect element
+  2. find the element that represents the cursor
+2. Add the pages where the cursor exists in manifest.json `content_scripts` > `matches`. For example, if the site you're adding support for has cursors in `https://example.com/document/....`, add `"https://example.com/document/*"` to the `matches` array.
+3. Add your [CSS Selector](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors) for the element you found after all the others, in `core.js`
+4. Mention the website in the README.md file alongside others in the "Not released yet" section
+4. Create a pull request with your changes
+
 
 ## Manual installation
 If you want to install this extension manually:
