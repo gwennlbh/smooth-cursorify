@@ -31,6 +31,14 @@
       "js": [
         "overleaf.js"
       ]
+    },
+    {
+      "matches": [
+        "https://typst.app/project/*"
+      ],
+      "js": [
+        "typst.js"
+      ]
     }
   ],
   "icons": {
