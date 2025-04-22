@@ -2,11 +2,11 @@
 tags: [web extension]
 made with: [javascript]
 layout:
-- m
-- p
-- p
-- [l, p]
-- [l, l]
+- m1
+- p1
+- p2
+- [l1, p3]
+- [l2, l3]
 ---
 
 # Smooth Cursorify
@@ -45,4 +45,3 @@ This extension has received [9 reviews](https://chrome.google.com/webstore/detai
 [Google Chrome Web Store](https://chrome.google.com/webstore/detail/smooth-cursorify/ohhjfajndpfpbimipmehmdkblnbelaec)
 
 [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/smooth-cursorify/)
-
