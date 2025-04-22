@@ -38,6 +38,8 @@ The problem with this is that methods using the native cursor can't really have 
 
 Thanks a lot :)
 
+For an example of what adding support for a new site looks like: https://github.com/gwennlbh/smooth-cursorify/commit/9aeaf6faf9e6c2edbbcd7194660b6faedc7d893e
+
 1. Find the HTML element that shows the cursor: 
   1. open the dev tools / inspect element
   2. find the element that represents the cursor
