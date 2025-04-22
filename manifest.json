@@ -8,37 +8,19 @@
     {
       "matches": [
         "https://docs.google.com/document/*",
-        "http://docs.google.com/document/*"
+        "https://www.overleaf.com/project/*",
+        "https://typst.app/project/*",
+        "https://codepen.io/pen/*",
+        "https://codepen.io/pen"
       ],
-      "js": [
-        "google-docs.js"
-      ]
+      "js": ["core.js"]
     },
     {
       "matches": [
         "https://docs.google.com/spreadsheets/*",
         "http://docs.google.com/spreadsheets/*"
       ],
-      "js": [
-        "google-sheets.js"
-      ]
-    },
-    {
-      "matches": [
-        "https://www.overleaf.com/project/*",
-        "http://www.overleaf.com/project/*"
-      ],
-      "js": [
-        "overleaf.js"
-      ]
-    },
-    {
-      "matches": [
-        "https://typst.app/project/*"
-      ],
-      "js": [
-        "typst.js"
-      ]
+      "js": ["google-sheets.js"]
     }
   ],
   "icons": {
