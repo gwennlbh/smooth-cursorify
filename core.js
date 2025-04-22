@@ -7,6 +7,8 @@
  */
 
 declareStyles([
+  // Monaco: Leetcode, and probably others
+  ".monaco-editor .cursor",
   // Codemirror: Typst, Codepen
   ".cm-cursorLayer .cm-cursor",
   ".cm-cursorLayer .cm-fat-cursor", // Vim normal mode cursor

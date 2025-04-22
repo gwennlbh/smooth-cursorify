@@ -19,6 +19,7 @@
 
 * Google Sheets (https://sheets.google.com/): the cursor is not transitioned, but the border around the active cell is (thanks @JaduaStudios)
 * Typst (https://typst.app)
+* LeetCode (https://leetcode.com/)
 
 ## How does it work?
 

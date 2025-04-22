@@ -11,7 +11,8 @@
         "https://www.overleaf.com/project/*",
         "https://typst.app/project/*",
         "https://codepen.io/pen/*",
-        "https://codepen.io/pen"
+        "https://codepen.io/pen",
+        "https://leetcode.com/problems/*"
       ],
       "js": ["core.js"]
     },
