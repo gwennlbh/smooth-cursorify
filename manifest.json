@@ -29,5 +29,10 @@
     "48": "icon48.png",
     "128": "icon128.png"
   },
-  "content_security_policy": {}
+  "content_security_policy": {},
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{b3f79b6d-0801-4b49-bf18-5ff3f8d24c68}"
+    }
+  }
 }
