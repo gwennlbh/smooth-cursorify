@@ -14,7 +14,7 @@ declareStyles([
   ".cm-cursorLayer .cm-fat-cursor", // Vim normal mode cursor
   ".CodeMirror-cursors .CodeMirror-cursor",
   // Kix: Google Docs
-  [".kix-cursor", "docs.google.com"],
+  ".kix-cursor",
   // ACE: Overleaf
   ".ace_cursor_layer .ace_cursor",
 ])
@@ -33,15 +33,7 @@ function declareStyles(selectors) {
     document.head.appendChild(style)
   }
 
-  for (let selector of selectors) {
-    // Handle scoped selectors
-    if (Array.isArray(selector)) {
-      selector = selector[0]
-      if (new URL(window.location.href).hostname !== selector[1]) {
-        continue
-      }
-    }
-
+  for (const selector of selectors) {
     style.appendChild(
       document.createTextNode(
         `${selector} { transition: all 80ms ease !important }`

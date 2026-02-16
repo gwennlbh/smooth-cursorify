@@ -9,7 +9,7 @@
       "matches": [
         "https://docs.google.com/document/*",
         "https://www.overleaf.com/project/*",
-        "https://typst.app/project/*",
+        "https://typst.app/*",
         "https://codepen.io/pen/*",
         "https://codepen.io/pen",
         "https://leetcode.com/problems/*"

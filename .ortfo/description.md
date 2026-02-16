@@ -2,7 +2,7 @@
 tags: [web extension]
 made with: [javascript]
 layout:
-- m1
+# - m1
 - p1
 - p2
 - [l1, p3]
@@ -13,7 +13,7 @@ layout:
 
 :: fr
 
-![Vidéo de présentation](../demo.mp4)
+<!-- ![Vidéo de présentation](../demo.mp4) -->
 
 Microsoft Word possède une fonctionnalité esthétique assez plaisante qui consiste en l'animation du curseur de texte:
 au lieu de brusquement sauter de caractère en caractère, son mouvement est subtilement animé, ce qui donne un résultat assez agréable pour certains.
@@ -31,7 +31,7 @@ Cette extension a reçu [9 avis](https://chrome.google.com/webstore/detail/smoot
 
 :: en
 
-![Demo video](../demo.mp4)
+<!-- ![Demo video](../demo.mp4) -->
 
 Microsoft Word has an aesthetically pleasing feature that consists of the animation of the text cursor:
 Instead of abruptly jumping from character to character, its movement is subtly animated, which gives a rather pleasing result for some.
