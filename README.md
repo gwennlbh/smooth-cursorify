@@ -14,12 +14,13 @@
 
 * Google Docs (https://docs.google.com/) 
 * Overleaf (https://www.overleaf.com/) 
-
-### To be released
-
 * Google Sheets (https://sheets.google.com/): the cursor is not transitioned, but the border around the active cell is (thanks @JaduaStudios)
 * Typst (https://typst.app)
 * LeetCode (https://leetcode.com/)
+
+### To be released
+
+* Nothing yet…
 
 ## How does it work?
 
